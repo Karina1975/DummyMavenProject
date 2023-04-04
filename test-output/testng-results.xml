@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T01:18:28Z" name="Default suite" finished-at="2023-03-28T01:18:28Z" duration-ms="22">
+  <suite started-at="2023-03-31T21:18:34Z" name="Suite" finished-at="2023-03-31T21:18:34Z" duration-ms="37">
     <groups>
     </groups>
-    <test started-at="2023-03-28T01:18:28Z" name="Default test" finished-at="2023-03-28T01:18:28Z" duration-ms="22">
+    <test started-at="2023-03-31T21:18:34Z" name="Test" finished-at="2023-03-31T21:18:34Z" duration-ms="37">
+      <class name="com.project.extra.RegisterTest">
+        <test-method signature="RegisterUser()[pri:0, instance:com.project.extra.RegisterTest@3fed2870]" started-at="2023-03-31T21:18:34Z" name="RegisterUser" finished-at="2023-03-31T21:18:34Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+      </class> <!-- com.project.extra.RegisterTest -->
+      <class name="com.project.extra.LogoutTest">
+        <test-method signature="LogoutUser()[pri:0, instance:com.project.extra.LogoutTest@32c4e8b2]" started-at="2023-03-31T21:18:34Z" name="LogoutUser" finished-at="2023-03-31T21:18:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUser -->
+      </class> <!-- com.project.extra.LogoutTest -->
       <class name="com.project.extra.SearchProductTest">
-        <test-method signature="SearchProductUser()[pri:0, instance:com.project.extra.SearchProductTest@6581dc0a]" started-at="2023-03-28T01:18:28Z" name="SearchProductUser" finished-at="2023-03-28T01:18:28Z" duration-ms="6" status="PASS">
+        <test-method signature="SearchProductUser()[pri:0, instance:com.project.extra.SearchProductTest@58326051]" started-at="2023-03-31T21:18:34Z" name="SearchProductUser" finished-at="2023-03-31T21:18:34Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchProductUser -->
       </class> <!-- com.project.extra.SearchProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.project.extra.LoginTest">
+        <test-method signature="LoginUser()[pri:0, instance:com.project.extra.LoginTest@77128536]" started-at="2023-03-31T21:18:34Z" name="LoginUser" finished-at="2023-03-31T21:18:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+      </class> <!-- com.project.extra.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
